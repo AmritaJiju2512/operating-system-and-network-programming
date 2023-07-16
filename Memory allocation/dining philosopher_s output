@@ -1,0 +1,55 @@
+dining philosopher output
+
+(base) plab@plab-HCL-Desktop:~/Documents/AJS5_18/Dining Philosopher$ gcc -o dinplhil dinphil.c -lpthread
+(base) plab@plab-HCL-Desktop:~/Documents/AJS5_18/Dining Philosopher$ ./dinphil
+Philosopher 2 is trying to eat
+Philosopher 4 is trying to eat
+Philosopher 4 is trying to take the left chopstick
+Philosopher 4 takes the left chopstick
+Philosopher 4 is trying to take the right chopstick
+Philosopher 4 takes the right chopstick
+Philosopher 1 is trying to eat
+Philosopher 4 is eating
+Philosopher 2 is trying to take the left chopstick
+Philosopher 2 takes the left chopstick
+Philosopher 2 is trying to take the right chopstick
+Philosopher 2 takes the right chopstick
+Philosopher 2 is eating
+Philosopher 1 is trying to take the left chopstick
+Philosopher 1 takes the left chopstick
+Philosopher 1 is trying to take the right chopstick
+Philosopher 3 is trying to eat
+Philosopher 3 is trying to take the left chopstick
+Philosopher 0 is trying to eat
+Philosopher 0 is trying to take the left chopstick
+Philosopher 2 is trying to release the left chopstick
+Philosopher 2 releases the left chopstick
+Philosopher 2 is trying to release the right chopstick
+Philosopher 3 takes the left chopstick
+Philosopher 3 is trying to take the right chopstick
+Philosopher 2 releases the right chopstick
+Philosopher 4 is trying to release the left chopstick
+Philosopher 1 takes the right chopstick
+Philosopher 4 releases the left chopstick
+Philosopher 4 is trying to release the right chopstick
+Philosopher 3 takes the right chopstick
+Philosopher 3 is eating
+Philosopher 1 is eating
+Philosopher 4 releases the right chopstick
+Philosopher 0 takes the left chopstick
+Philosopher 0 is trying to take the right chopstick
+Philosopher 3 is trying to release the left chopstick
+Philosopher 3 releases the left chopstick
+Philosopher 3 is trying to release the right chopstick
+Philosopher 3 releases the right chopstick
+Philosopher 1 is trying to release the left chopstick
+Philosopher 1 releases the left chopstick
+Philosopher 1 is trying to release the right chopstick
+Philosopher 1 releases the right chopstick
+Philosopher 0 takes the right chopstick
+Philosopher 0 is eating
+Philosopher 0 is trying to release the left chopstick
+Philosopher 0 releases the left chopstick
+Philosopher 0 is trying to release the right chopstick
+Philosopher 0 releases the right chopstick
+
